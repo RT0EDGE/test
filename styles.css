@@ -1,0 +1,128 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+.header-top {
+    display: flex;
+    align-items: left;
+    padding: 20px;
+    flex-direction: column; /* Stack logos and line vertically */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Space between logos and line */
+}
+
+.logo {
+    height: 50px; /* Adjust the height as needed */
+    margin-right: 15px; /* Space between the logos */
+}
+
+.header-line {
+    width: 100%; /* Full width line */
+    height: 6px;
+    background-color: #007bff; /* Black line */
+
+}
+
+header, footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+nav.upper-nav {
+    margin: 20px 0;
+    background-color: #007bff; /* Blue background for the upper nav */
+    padding: 10px 0;
+}
+nav.upper-nav a {
+    margin: 18px;
+    text-decoration: none;
+    color: white; /* White text for the upper nav links */
+    font-size: 18px; /* Larger font size for the upper nav */
+}
+nav.lower-nav {
+    margin: 20px 0;
+    padding: 10px 0;
+}
+nav.lower-nav a {
+    margin: 15px;
+    text-decoration: none;
+    color: #007bff; /* Blue text for the lower nav links */
+    font-size: 12px; /* Smaller font size for the lower nav */
+}
+.main-content {
+    padding: 20px;
+    text-align: center; /* Center align the main content */
+}
+.photo-slide {
+    width: 95%;
+    height: 450px; /* Increased height for the photo slide */
+    background-color: #ddd;
+    margin: 0 auto 20px; /* Center the slide horizontally and add margin-bottom */
+    position: relative;
+    border-radius: 20px; /* Curved corners for the photo slide */
+    overflow: hidden; /* Ensure the images stay within the curved corners */
+}
+
+.photo-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the whole image is shown without cropping */
+}
+.about-mriirs {
+    margin-bottom: 20px;
+    font-size: 1.700rem;
+}
+.about-sca {
+    margin-bottom: 20px;
+    font-size: 1.700rem;
+}
+.about-conference {
+    margin-bottom: 20px;
+    font-size: 1.700rem;
+}
+.small-fonts {
+    font-size: 12px;
+}
+.slide {
+    display: none;
+}
+.active {
+    display: block;
+}
+
+.large-text {
+    font-size: 60px; /* Adjust the size as needed */
+}
+.large-text2 {
+    font-size: 36px; /* Adjust the size as needed */
+}
+
+.text-justify {
+    text-align: justify;
+    font-size: 1.300rem;
+    line-height: 1.75rem;
+}
+
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
