@@ -126,3 +126,27 @@ li {
     margin-bottom: 10px;
     font-size: 18px;
 }
+
+.table-container {
+    width: 50%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    border: 2px solid black; /* Adds a black border around the entire table */
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid black; /* Adds black borders to table cells */
+}
+
+th {
+    background-color: #f8f8f8;
+}
