@@ -44,7 +44,7 @@ nav.upper-nav a {
     margin: 18px;
     text-decoration: none;
     color: white; /* White text for the upper nav links */
-    font-size: 18px; /* Larger font size for the upper nav */
+    font-size: 15px; /* Larger font size for the upper nav */
 }
 nav.lower-nav {
     margin: 20px 0;
